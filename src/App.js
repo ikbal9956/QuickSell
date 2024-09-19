@@ -1,13 +1,13 @@
 import './App.css';
-import Kanban from './components/Kanban';
-import Title from './components/Title';
+import Board from './homepage/board';
+import Heading from './components/Heading';
 
 function App() {
 
   return (
     <div className="App">
-      <Kanban/>
-      <Title/>
+      <Board/>
+      <Heading/>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React, {useState, useEffect, useRef} from 'react'
-import './styles/Navbar.css'
+import './styles/Nav.css'
 
 const settingsIcon = '/icons/settings.svg'
 const chevronIcon = '/icons/chevron-down.svg'
 
-function Navbar({grouping, ordering, setGrouping, setOrdering}) {
+function Nav({grouping, ordering, setGrouping, setOrdering}) {
     const [isOpen, setIsOpen] = useState(false);
     const button = useRef(null);
     const drop = useRef(null);
@@ -48,4 +48,4 @@ function Navbar({grouping, ordering, setGrouping, setOrdering}) {
   )
 }
 
-export default Navbar
+export default Nav;
